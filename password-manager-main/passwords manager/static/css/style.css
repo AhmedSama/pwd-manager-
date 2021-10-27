@@ -1,0 +1,45 @@
+body{
+    font-family: 'Jura', sans-serif;
+    font-family: 'Gothic A1', sans-serif;
+    font-family: 'Comfortaa', cursive;
+    background-color: #fffcf9;
+}
+.font-j{
+    font-family: 'Jura', sans-serif;
+}
+.font-g{
+    font-family: 'Gothic A1', sans-serif;
+}
+.font-c{
+    font-family: 'Comfortaa', cursive;
+}
+.font-m{
+    font-family: 'Mitr', sans-serif;
+}
+.box{
+    /* border: 1px solid rgba(0,0,0,0.2); */
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+
+.card-box:hover{
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    transition: 0.2s;
+}
+.border-light{
+    border: 1px solid rgba(0,0,0,0.8);
+}
+.rotate-180{
+    transform: rotate(180deg);
+}
+.hoverme:hover .rotate{
+    animation: ro 1.5s infinite linear;
+}
+
+@keyframes ro{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
